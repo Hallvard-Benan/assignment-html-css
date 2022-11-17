@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+
+html {
+    color: #ffffff;
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+    background-color: #1f1f1f;
+}
+
+header,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #ffffff;
+    padding:0rem 1.3rem;
+}
+
+
+.nav_item {
+    color: #1e1e1e;
+    padding: 1rem;
+}
+
+.nav_item.search {
+    height: 2.2rem;
+    border-radius: 0.5rem;
+}
+
+.nav_item.button {
+    background-color: #432E7D;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    min-width: 1rem;
+    max-width: 7rem;
+}
+
+/*Hero section homepage*/
+.hero_section {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(/images/godzilla.jpeg);
+    height: 50vh;
+    display: flex;
+    background-position: bottom center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero_section_playbutton button {
+    border: none;
+    background: none;
+}
+
+.hero_section_description {
+    font-size: 2rem;
+    max-width: 25vw;
+}
+.hero_section_description h2 {
+    font-size: 1.9rem;
+}
+
+.hero_section_description h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.description_info {
+    max-width: 40%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.age_rating {
+    background-color:#1E1E1E;
+    border-radius: .3rem;
+    border: 2px solid white;
+    padding: .5rem .8rem;
+}
+
+/*Suggestions section*/
+
+.categories_selector select {
+    padding: .5rem 1.2rem .5rem .2rem;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.discover_section {
+    margin: 60px 0px 0px 60px;
+}
+
+.suggestions_new, 
+.suggestions_popular {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card_poster {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_poster p {
+    background-color: #4b4b4b;
+    border: 2px solid #1e1e1ed8;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: -1rem;
+}
+
+.poster_image {
+    height: 437px;
+    width: 276px;
+    border-radius: 9px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+}
+
+footer a {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social a {
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.contact_page,
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_page {
+    height: 75vh;
+    padding-top: 10vh;
+
+}
+
+.contact_name,
+.contact_email {
+    width: 50%;
+}
+
+.contact_message {
+    min-height: 80%;
+    min-width: 80%;
+    border-radius: .5rem;
+}
+
+.contact_info {
+    display: flex;
+}
