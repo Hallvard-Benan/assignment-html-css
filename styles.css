@@ -115,7 +115,7 @@ a {
 /*Hero section homepage*/
 
 @media (min-width: 768px){
-    .hero_section {height: 50vh;}
+    .hero_section {min-height: 50vh;}
 .hero_section,
 .title_section {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/images/godzilla.jpeg);
