@@ -409,6 +409,11 @@ input {
     min-height: 2.5rem;
 }
 
+.price_large {
+    font-size: 2rem
+    ;
+}
+
 .confirm_btn,
 .play_now {
     background-color: #439A0D;
