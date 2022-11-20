@@ -12,15 +12,16 @@
 <body>
    <header>
     <a href="index.html"><img src="images/SquareEyes_Logo.png" alt="Square eyes logo and home button" class="logo"></a>
+    <input type="checkbox" id="menu-checkbox">
+    <label for="menu-checkbox" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
     <nav>
         <a href="my-movies.html" class="nav_item">My movies</a>
         <a href="buy-movies.html" class="nav_item">Buy movies</a>
         <i class="fa-solid fa-magnifying-glass"><input type="search" class="nav_item search" name="search" placeholder="search"></i>
-        <a href="my-account.html" class="nav_item">My account</a>
-        <a href="buy-movies.html" class="nav_item">Login</a>
-        <a href="sign-up.html" class="nav_item button">Sign up</a>
+        <a href="#" class="nav_item">Login</a>
+        <a href="#" class="nav_item button">Sign up</a>
     </nav>
-   </header> 
+   </header>
    <main>
     <section class="hero_section">
         <div class="hero_section_description">
@@ -30,7 +31,7 @@
             <h3 class="age_rating">12+</h3>
         </div>
         </div>
-        <div class="hero_section_playbutton"><a href="movie1.html"><img src="/icons/play button.svg" alt="playbutton"></a>
+        <div class="hero_section_playbutton"><a href="movie1.html"><img src="/icons/play button.svg" alt="playbutton" class="play"></a>
         </div>
         <div>
         <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla King of the Monsters movie poster in portrait" class="hero_section hero_poster">
@@ -50,74 +51,74 @@
 
         <h2 class="suggestions_heading">New movies</h2>
         <section class="suggestions_new">       
-            <div class="card_poster">
-            <img src="images/Square_Eyes_Cover1.jpeg" alt="Hobs & Shaw poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla King of the Monsters movie poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover3.jpeg" alt="Once upon a time in Hollywood poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div> 
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover4.jpeg" alt="Scream poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover5.jpeg" alt="Sweetheart poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover6.jpeg" alt="The Addams family poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover7.jpeg" alt="The Batman poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
-            <img src="images/Square_Eyes_Cover8.jpeg" alt="Toy Story 4 poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover1.jpeg" alt="Hobs & Shaw poster in portrait" class="poster_image">
+                <p>kr 199,99</p>     
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla King of the Monsters movie poster in portrait" class="poster_image">
+                <p>kr 199,99</p>     
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover3.jpeg" alt="Once upon a time in Hollywood poster in portrait" class="poster_image">
+                <p>kr 199,99</p>    
+            </div></a> 
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover4.jpeg" alt="Scream poster in portrait" class="poster_image">
+                <p>kr 199,99</p>   
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover5.jpeg" alt="Sweetheart poster in portrait" class="poster_image">
+                <p>kr 199,99</p>   
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover6.jpeg" alt="The Addams family poster in portrait" class="poster_image">
+                <p>kr 199,99</p>   
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover7.jpeg" alt="The Batman poster in portrait" class="poster_image">
+                <p>kr 199,99</p></div></a>     
+            </div></a>
+            <a href="/buy-movie-info.html"><div class="card_poster">
+                <img src="images/Square_Eyes_Cover8.jpeg" alt="Toy Story 4 poster in portrait" class="poster_image">
+                <p>kr 199,99</p>     
+            </div></a>
     </section>
 
     <h2 class="suggestions_heading">Most Popular</h2>
     <section class="suggestions_popular">
-        <div class="card_poster">
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover1.jpeg" alt="Hobs & Shaw poster in portrait" class="poster_image">
             <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="/images/Square_Eyes_Cover2.jpeg" alt="Godzilla King of the Monsters movie poster in portrait" class="poster_image">
             <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover3.jpeg" alt="Once upon a time in Hollywood poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div> 
-        <div class="card_poster">
+            <p>kr 199,99</p>    
+        </div></a> 
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover4.jpeg" alt="Scream poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+            <p>kr 199,99</p>   
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover5.jpeg" alt="Sweetheart poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+            <p>kr 199,99</p>   
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover6.jpeg" alt="The Addams family poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+            <p>kr 199,99</p>   
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover7.jpeg" alt="The Batman poster in portrait" class="poster_image">
-            <p>kr 199,99</p>     
-        </div>
-        <div class="card_poster">
+            <p>kr 199,99</p></div></a>     
+        </div></a>
+        <a href="/buy-movie-info.html"><div class="card_poster">
             <img src="images/Square_Eyes_Cover8.jpeg" alt="Toy Story 4 poster in portrait" class="poster_image">
             <p>kr 199,99</p>     
-        </div>
+        </div></a>
         </section>  
     </section>
    </main>
