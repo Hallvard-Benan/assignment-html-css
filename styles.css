@@ -53,6 +53,11 @@ section {
   background-size: contain;
 }
 
+.hero_section_description {
+  display: grid;
+  gap: 1.2rem;
+}
+
 @media (min-width: 978px) {
   nav,
   header {
