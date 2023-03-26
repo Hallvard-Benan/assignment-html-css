@@ -18,7 +18,7 @@ https://www.figma.com/file/tXIGmGJL3oea9klOh8PDY6/Square-eyes-v2?node-id=0%3A1&t
 Report:
 I chose this site because I felt it had the most potential for improvement out of my previous assignments.
 
-There were many points to address with the previous version of this site. There were many points to address with the previous version of this site. Firstly, the spacing which is an essential part of interaction design. The original site had many issues with it. Specifically, everything was too close together.
+There were many points to address with the previous version of this site. Firstly, the spacing which is an essential part of interaction design. The original site had many issues with it. Specifically, everything was too close together.
 
 Another issue I received feedback on was that the movie cards were too big on mobile view. I reduced the size of the images on mobile but kept them the same size on desktop view.
 
