@@ -32,33 +32,36 @@
     </script>
   </head>
   <body>
-    <div class="header">
-      <header>
-        <a href="index.html"
-          ><img
-            src="images/SquareEyes_Logo.png"
-            alt="Square eyes logo and home button"
-            class="logo"
+    <header>
+      <a href="index.html"
+        ><img
+          src="src/images/SquareEyes_Logo.png"
+          alt="Square eyes logo and home button"
+          class="logo"
+      /></a>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <a href="my-movies.html" class="nav_item">My movies</a>
+        <a href="buy-movies.html" class="nav_item">Buy movies</a>
+        <input
+          type="search"
+          class="nav_item search"
+          name="search"
+          placeholder="search"
+        />
+        <a href="" class="nav_item checkout-link">
+          Cart <img src="src/icons/Button-cart.svg" alt="" class="filter-black"
         /></a>
-        <input type="checkbox" id="menu-checkbox" />
-        <label for="menu-checkbox" class="hamburger-icon"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
-        <nav>
-          <a href="my-movies.html" class="nav_item">My movies</a>
-          <a href="buy-movies.html" class="nav_item">Buy movies</a>
-          <i class="fa-solid fa-magnifying-glass"
-            ><input
-              type="search"
-              class="nav_item search"
-              name="search"
-              placeholder="search"
-          /></i>
-          <a href="#" class="nav_item">Login</a>
-          <a href="#" class="nav_item button">Sign up</a>
-        </nav>
-      </header>
-    </div>
+        <p id="js-cart-count"></p>
+        <a href="#" class="nav_item button is-hidden">Sign up</a>
+        <a href="#" class="nav_item button">
+          Log out <img src="/src/icons/SignOut.svg" alt=""
+        /></a>
+      </nav>
+    </header>
     <main class="info_page">
       <section class="title_section">
         <div class="title_button">
@@ -67,18 +70,10 @@
           <a href="checkout.html" class="button buy">Buy now</a>
         </div>
         <img
-          src="/images/Square_Eyes_Cover2.jpeg"
+          src="/src/images/Square_Eyes_Cover2.jpeg"
           alt="Godzilla King of the Monsters movie poster in portrait"
           class="poster_image"
         />
-        <div class="title_button">
-          <button class="add_btn heart_btn">
-            <i class="fa-regular fa-heart"></i>
-          </button>
-          <button class="add_btn plus_btn">
-            <i class="fa-solid fa-plus"></i>
-          </button>
-        </div>
       </section>
       <section class="description_section">
         <div class="description_info">
@@ -92,6 +87,14 @@
           Mothra, Rodan, and his ultimate nemesis, the three-headed King
           Ghidorah.
         </p>
+        <div class="title_button">
+          <button class="add_btn heart_btn">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <button class="add_btn plus_btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
       </section>
     </main>
     <footer>
@@ -107,7 +110,7 @@
         <a href="contact.html">Contact us</a>
         <a href="about.html">About us</a>
       </div>
-      &copy;
+      &copy; Made by Hallvard Benan
     </footer>
   </body>
 </html>

@@ -1,0 +1,8 @@
+.is-hidden {
+  display: none;
+}
+
+.filter-black {
+  filter: invert(12%) sepia(1%) saturate(872%) hue-rotate(344deg)
+    brightness(99%) contrast(99%);
+}

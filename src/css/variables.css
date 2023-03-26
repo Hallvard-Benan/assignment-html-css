@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(/src/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FiraSansCondensed";
+  src: url(src/fonts/FiraSansCondensed-Bold.ttf) format("truetype");
+}
+
+:root {
+  --color-primary-200: hsl(256, 46%, 18%);
+  --color-primary-400: hsl(256, 46%, 34%);
+  --color-primary-700: hsl(266, 100%, 86%);
+
+  --color-secondary-400: #07b561;
+
+  --color-success: var(--color-secondary-400);
+  --color-error: hsl(0, 68%, 46%);
+
+  --color-neutral-100: hsl(0, 0%, 12%);
+  --color-neutral-500: hsl(0, 0%, 44%);
+  --color-neutral-800: hsl(0, 0%, 100%);
+
+  --font-family-primary: "montserrat";
+  --font-family-secondary: "FiraSansCondensed";
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-100: 1rem;
+  --font-size-200: 1.25rem;
+  --font-size-300: 1.375rem;
+  --font-size-400: 1.5rem;
+  --font-size-500: 1.875rem;
+  --font-size-600: 2rem;
+  --font-size-700: 2.5rem;
+  --font-size-800: 2.8125rem;
+  --font-size-900: 4rem;
+
+  --font-size-paragraph: var(--font-size-100);
+  --font-size-button-secondary: var(--font-size-200);
+  --font-size-button-cta: var(--font-size-400);
+  --font-size-sub-heading: var(--font-size-300);
+  --font-size-heading: var(--font-size-600);
+
+  --button-border-primary: 0.5rem;
+
+  --button-padding-primary: 0.875rem 4.875rem;
+  --button-padding-secondary: 0.52rem 1.875rem;
+
+  --poster-width: 130px;
+  --poster-height: 192px;
+  --poster-border-radius: 0.4rem;
+
+  --device-image-width: 6rem;
+
+  --play-button-width: 4rem;
+
+  --desktop-visible: none;
+}
+
+@media (min-width: 50em) {
+  :root {
+    --font-size-paragraph: var(--font-size-400);
+    --font-size-button-secondary: var(--font-size-600);
+    --font-size-button-cta: var(--font-size-800);
+    --font-size-sub-heading: var(--font-size-700);
+    --font-size-heading: var(--font-size-900);
+
+    --button-border-primary: 1rem;
+
+    --button-padding-primary: 2rem 10.75rem;
+    --button-padding-secondary: 1.75rem 4.25rem;
+
+    --poster-width: 230px;
+    --poster-height: 340px;
+    --poster-border-radius: 0.7rem;
+
+    --device-image-width: 12rem;
+
+    --play-button-width: 6rem;
+
+    --desktop-visible: block;
+  }
+}

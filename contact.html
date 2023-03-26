@@ -17,6 +17,8 @@
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
+    <script src="script.js" defer type="module"></script>
+    <script src="src/js/contact.js" defer type="module"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,7 +37,7 @@
     <header>
       <a href="index.html"
         ><img
-          src="images/SquareEyes_Logo.png"
+          src="src/images/SquareEyes_Logo.png"
           alt="Square eyes logo and home button"
           class="logo"
       /></a>
@@ -59,31 +61,53 @@
     </header>
     <main class="contact_page">
       <h1 class="contact_header">Message us</h1>
-      <form action="submit.php" method="POST" class="contact_form">
-        <div class="email">
-          <label for="email" class="label_email">E-mail:</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="example@squareyes.com"
-            required
-            class="contact_email"
-          />
+      <form class="contact_form" id="contact-form">
+        <div class="input-section">
+          <div class="email">
+            <label for="email" class="label_email">E-mail:</label>
+            <input
+              name="email"
+              id="email"
+              placeholder="example@squareyes.com"
+              class="contact_email"
+            />
+          </div>
+          <div class="form-error is-hidden" id="email-error">
+            Please enter a valid email
+          </div>
         </div>
-        <div class="name">
-          <label for="name" class="label_name">Name:</label>
-          <input type="text" name="name" class="contact_name" />
+        <div class="input-section">
+          <div class="name">
+            <label for="name" class="label_name">Name:</label>
+            <input type="text" name="name" id="name" class="contact_name" />
+          </div>
+          <div class="form-error is-hidden" id="name-error">
+            Please fill in your full name
+          </div>
         </div>
-        <input
+        <textarea
+          name="message"
+          id="subject"
+          class="contact_message"
+          placeholder="Your message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <!-- <input
           type="text"
           name="message"
+          id="subject"
           placeholder="Your message"
-          required
           class="contact_message"
-        />
+        /> -->
+        <div class="form-error is-hidden" id="subject-error">
+          subject must be at least 10 characters
+        </div>
         <input type="submit" class="contact_submit" />
       </form>
+      <div id="validation-message"></div>
     </main>
+
     <footer>
       <div class="social">
         <a href="https://www.facebook.com/"
@@ -97,7 +121,7 @@
         <a href="contact.html">Contact us</a>
         <a href="about.html">About us</a>
       </div>
-      &copy;
+      &copy; Made by Hallvard Benan
     </footer>
   </body>
 </html>

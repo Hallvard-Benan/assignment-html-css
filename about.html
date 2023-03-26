@@ -35,7 +35,7 @@
     <header>
       <a href="index.html"
         ><img
-          src="images/SquareEyes_Logo.png"
+          src="src/images/SquareEyes_Logo.png"
           alt="Square eyes logo and home button"
           class="logo"
       /></a>
@@ -46,40 +46,45 @@
       <nav>
         <a href="my-movies.html" class="nav_item">My movies</a>
         <a href="buy-movies.html" class="nav_item">Buy movies</a>
-        <i class="fa-solid fa-magnifying-glass"
-          ><input
-            type="search"
-            class="nav_item search"
-            name="search"
-            placeholder="search"
-        /></i>
-        <a href="#" class="nav_item">Login</a>
-        <a href="#" class="nav_item button">Sign up</a>
+        <input
+          type="search"
+          class="nav_item search"
+          name="search"
+          placeholder="search"
+        />
+        <a href="" class="nav_item checkout-link">
+          Cart <img src="src/icons/Button-cart.svg" alt="" class="filter-black"
+        /></a>
+        <p id="js-cart-count"></p>
+        <a href="#" class="nav_item button is-hidden">Sign up</a>
+        <a href="#" class="nav_item button">
+          Log out <img src="/src/icons/SignOut.svg" alt=""
+        /></a>
       </nav>
     </header>
     <main class="about_main">
-      <div class="about_container">
-        <h1>About Square Eyes</h1>
-        <p>
-          Square Eyes is a video-platform for film-lovers, by film-lovers. The
-          company was started in 2022 with the mission of providing a platform
-          for quality films, that would suit the viewers, and the creators
-          alike.
-        </p>
-        <p>
-          If you have any questions you can:
-          <a href="/contact.html">contact us here</a>
-        </p>
-        <p>
-          or reach out on social media:
-          <a href="https://www.facebook.com/"
-            ><i class="fa-brands fa-square-facebook"></i
-          ></a>
-          <a href="https://www.twitter.com/"
-            ><i class="fa-brands fa-square-twitter"></i
-          ></a>
-        </p>
-      </div>
+      <section>
+        <div class="about_container">
+          <h1>About Square Eyes</h1>
+          <p>
+            Square Eyes is a video-platform for film-lovers, by film-lovers. The
+            company was started in 2022 with the mission of providing a platform
+            for quality films, that would suit the viewers, and the creators
+            alike.
+          </p>
+          <p>If you have any questions you can:</p>
+          <a href="/contact.html" class="button cta success">contact us</a>
+          <p>
+            or reach out on social media:
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="https://www.twitter.com/"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+          </p>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="social">
