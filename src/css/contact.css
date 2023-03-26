@@ -7,7 +7,7 @@
 
 .contact_page {
   align-items: center;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .contact_form input,
@@ -76,10 +76,18 @@ input {
   animation: var(--animation-fade-in) forwards;
   animation-timing-function: var(--ease-in-1);
   animation-duration: 0.3s;
+  margin-bottom: 2rem;
 }
 
 .exit {
   animation: var(--animation-fade-out);
   animation-timing-function: var(--ease-out-1);
   animation-duration: 0.3s;
+}
+
+.pagebuttons {
+  padding: 1rem 0.5rem;
+  border: 1px solid white;
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 2rem;
 }
