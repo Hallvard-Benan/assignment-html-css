@@ -70,6 +70,7 @@
               id="email"
               placeholder="example@squareyes.com"
               class="contact_email"
+              aria-describedby="email-error"
             />
           </div>
           <div class="form-error is-hidden" id="email-error">
@@ -79,7 +80,13 @@
         <div class="input-section">
           <div class="name">
             <label for="name" class="label_name">Name:</label>
-            <input type="text" name="name" id="name" class="contact_name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="contact_name"
+              aria-describedby="name-error"
+            />
           </div>
           <div class="form-error is-hidden" id="name-error">
             Please fill in your full name
@@ -92,14 +99,8 @@
           placeholder="Your message"
           cols="30"
           rows="10"
+          aria-describedby="subject-error"
         ></textarea>
-        <!-- <input
-          type="text"
-          name="message"
-          id="subject"
-          placeholder="Your message"
-          class="contact_message"
-        /> -->
         <div class="form-error is-hidden" id="subject-error">
           subject must be at least 10 characters
         </div>
@@ -107,13 +108,12 @@
       </form>
       <div id="validation-message"></div>
     </main>
-
     <footer>
       <div class="social">
-        <a href="https://www.facebook.com/"
+        <a href="https://www.facebook.com/" aria-label="facebook"
           ><i class="fa-brands fa-square-facebook"></i
         ></a>
-        <a href="https://www.twitter.com/"
+        <a href="https://www.twitter.com/" aria-label="twitter"
           ><i class="fa-brands fa-square-twitter"></i
         ></a>
       </div>

@@ -122,7 +122,7 @@ moviesContainer.forEach((container) => {
                 <a href="details.html?title=${movies[i].title}" class="movie">
                     <img
                         src="${movies[i].poster}"
-                        alt="poster for movie"
+                        alt="poster for movie ${movies[i].title}"
                         class="poster"
                     />
                     <div class="movie-buttons">
@@ -157,10 +157,8 @@ movieContainers.forEach((container) => {
   let remove = container.querySelector(".remove");
 
   button.addEventListener("click", () => {
-    let movie = container.dataset.movie; // assuming the movie object is stored in the 'data-movie' attribute
+    let movie = container.dataset.movie;
     cart.push(movie);
-    console.log(cart); // just for testing purposes
-    console.log(cart.indexOf(movie));
     button.classList.add("is-hidden");
     remove.classList.remove("is-hidden");
     checkoutLink.innerHTML = `<a href="checkout.html?items=${cart}" class="nav_item checkout-link"> Cart <img src="src/icons/Button-cart.svg" alt="" class="filter-black"></a>`;
@@ -170,7 +168,6 @@ movieContainers.forEach((container) => {
   remove.addEventListener("click", () => {
     let movie = container.dataset.movie;
     cart.splice(cart.indexOf(movie), 1);
-    console.log(cart);
     remove.classList.add("is-hidden");
     button.classList.remove("is-hidden");
     checkoutLink.innerHTML = `<a href="checkout.html?items=${cart}" class="nav_item checkout-link"> Cart <img src="src/icons/Button-cart.svg" alt="" class="filter-black"></a>`;

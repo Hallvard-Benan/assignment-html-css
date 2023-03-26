@@ -131,15 +131,11 @@ if (itemsArray.length >= 1) {
   checkoutForm.classList.remove("is-hidden");
 }
 
-console.log(itemsArray);
-
 const selectedMovies = itemsArray.map(function (id) {
   return movies.find(function (movie) {
     return movie.title === id;
   });
 });
-
-console.log(selectedMovies);
 
 selectedMovies.forEach(function (movie) {
   checkoutContainer.innerHTML += `
@@ -167,5 +163,3 @@ const calculateSum = (arr) => {
 const totalPrice = document.querySelector(".price_large");
 
 totalPrice.innerHTML = calculateSum(price) + " kr";
-
-console.log(calculateSum(price));
