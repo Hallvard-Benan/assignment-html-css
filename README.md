@@ -1,4 +1,4 @@
-# assignment
+# Links
 
 Link to github:
 https://github.com/Hallvard-Benan/assignment-html-css
