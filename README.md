@@ -1,41 +1,70 @@
-# Links
+# Square Eyes
 
-Link to github:
-https://github.com/Hallvard-Benan/assignment-html-css
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-Link to deployed website:
+A simple overview of the use/purpose of the project.
 
-https://unique-sawine-7f2812.netlify.app
+## Description
 
-Figma links:
+This is a movie purchasing website. 
 
-Square eyes v1:
-https://www.figma.com/file/SU3zoEsaskjSG5S1GS7EuA/Square-eyes-v1?node-id=17%3A239&t=wZbZ2xVbk0ZeOIgN-1
+You can add some bullet points if you'd like to:
 
-Square eyes v2:
-https://www.figma.com/file/tXIGmGJL3oea9klOh8PDY6/Square-eyes-v2?node-id=0%3A1&t=H5TDPwQ9iSQ5CzLR-1
+- List item 1
+- List item 2
+- List item 3
 
-Report:
-I chose this site because I felt it had the most potential for improvement out of my previous assignments.
+## Built With
 
-There were many points to address with the previous version of this site. Firstly, the spacing which is an essential part of interaction design. The original site had many issues with it. Specifically, everything was too close together.
+You can list a the tech stack that you've used over here
 
-Another issue I received feedback on was that the movie cards were too big on mobile view. I reduced the size of the images on mobile but kept them the same size on desktop view.
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
 
-I had the opposite problem with buttons and links, which were too small on mobile. I increased their size to at least 45px in accordance with accessibility guidelines.
+## Getting Started
 
-I also added hover effects to the movie cards and "add-to-cart" functionality. The "add-to-cart" functionality works the same way as with our last assignment, where each card is generated using an object in JavaScript. When the button is clicked, the title value of the movie is stored in an array, and the number of items in that array gets displayed in the cart item in the nav-bar. When the cart button is pressed, it navigates you to the checkout page, which displays the items you have added, as well as a checkout form. I made this using query-params, the same way as with our JavaScript API-assignment.
+### Installing
 
-The contact form now has JavaScript-validation, which displays error messages and adds a red border to the input. This occurs both on blur and on submit events.
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-Navigation items now have active states, with an underline to show the user where they are on the page.
+1. Clone the repo:
 
-For accessibility, I added ARIA-labels to buttons without text, as well as alt text for images.
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-My initial plan was to redesign and rebuild the entire website, but I decided not to do this because of time constraints. I made a redesign in Figma, which I am still working on.
+2. Install the dependencies:
 
-In the redesign, I added a landing page for when you are not logged in, as well as carousel buttons for the posters, which are still missing in Square Eyes v1. I am trying to build a full comprehensive design system, including components and style guides with color palettes and typography, to make everything look less generic and more consistent.
+```
+npm install
+```
 
-My biggest challenge during this assignment was time management, as my ambition was too high compared to my abilities. I ended up editing the v1 version of the site instead of doing everything from scratch. However, I will finish Square Eyes v2, hopefully during the Easter break, which will eventually replace this site.
+### Running
 
-I have included a link to the Figma design file for version 2 in the README.
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+## Contributing
+
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
+
+## License
+
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+
+## Acknowledgments
+
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
