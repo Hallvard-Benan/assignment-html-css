@@ -1,6 +1,6 @@
 # Square Eyes
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image]([https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png](https://github.com/Hallvard-Benan/assignment-html-css/blob/main/src/images/Skjermbilde%202023-06-11%20kl.%2019.45.50.png))
 
 A simple overview of the use/purpose of the project.
 
