@@ -1,6 +1,6 @@
 # Square Eyes
 
-![image](https://github.com/Hallvard-Benan/assignment-html-css/blob/main/src/images/Skjermbilde%202023-06-11%20kl.%2019.45.50.png)
+<a href="https://unique-sawine-7f2812.netlify.app/">![image](https://github.com/Hallvard-Benan/assignment-html-css/blob/main/src/images/Skjermbilde%202023-06-11%20kl.%2019.45.50.png)</a>
 
 A movie purchasing website.
 
